@@ -343,7 +343,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function togglePlay() {
     if (!audio) {
       // Create audio element - user needs to add their own music file
-      audio = new Audio("your-love-song.mp3") // This is a placeholder
+      audio = new Audio("song.mp3") // This is a placeholder
       audio.addEventListener("timeupdate", updateProgress)
       audio.addEventListener("ended", resetPlayer)
     }
