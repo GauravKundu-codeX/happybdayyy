@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   createRosePetals()
 
   // Countdown Timer
-  const countdownDate = new Date("July 9, 2025 00:00:00").getTime()
+  const countdownDate = new Date("July 11, 2025 00:00:00").getTime()
 
   function updateCountdown() {
     const now = new Date().getTime()
